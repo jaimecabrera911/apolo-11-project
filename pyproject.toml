@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "apolo-11-project"
+version = "0.1.0"
+description = ""
+authors = ["JaimeACabreraA <cabrerajaimeandres@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+schedule = "^1.2.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
