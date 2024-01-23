@@ -1,0 +1,37 @@
+[
+  {
+    "date": "20240123122855",
+    "mission": "GalaxyOne",
+    "device": "Satelite",
+    "state": "killed",
+    "hash": -1733278015162612882
+  },
+  {
+    "date": "20240123122855",
+    "mission": "GalaxyOne",
+    "device": "Nave",
+    "state": "good",
+    "hash": -1194896259944879920
+  },
+  {
+    "date": "20240123122855",
+    "mission": "GalaxyOne",
+    "device": "Traje",
+    "state": "unknown",
+    "hash": 4106096367923723334
+  },
+  {
+    "date": "20240123122855",
+    "mission": "GalaxyOne",
+    "device": "Vehiculo",
+    "state": "unknown",
+    "hash": -2022518250718948144
+  },
+  {
+    "date": "20240123122855",
+    "mission": "GalaxyOne",
+    "device": "Robot",
+    "state": "unknown",
+    "hash": -4443311790852734133
+  }
+]

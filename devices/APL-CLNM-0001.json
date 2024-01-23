@@ -1,0 +1,37 @@
+[
+  {
+    "date": "20240123122855",
+    "mission": "ColonyMoon",
+    "device": "Satelite",
+    "state": "excellent",
+    "hash": 3563162218221591628
+  },
+  {
+    "date": "20240123122855",
+    "mission": "ColonyMoon",
+    "device": "Nave",
+    "state": "killed",
+    "hash": 3764307456986360815
+  },
+  {
+    "date": "20240123122855",
+    "mission": "ColonyMoon",
+    "device": "Traje",
+    "state": "warning",
+    "hash": -1399050929370819612
+  },
+  {
+    "date": "20240123122855",
+    "mission": "ColonyMoon",
+    "device": "Vehiculo",
+    "state": "killed",
+    "hash": 5751518083623840011
+  },
+  {
+    "date": "20240123122855",
+    "mission": "ColonyMoon",
+    "device": "Robot",
+    "state": "good",
+    "hash": -8125296622205919430
+  }
+]
