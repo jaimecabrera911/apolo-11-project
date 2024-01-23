@@ -1,0 +1,2 @@
+FILES_QTY = 5
+TIME = 5

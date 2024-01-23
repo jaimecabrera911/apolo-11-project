@@ -1,8 +1,8 @@
 import json
 
-from src.models.device import Device
-from src.models.mission import Mission
-from src.models.state import State
+from ..models.device import Device
+from ..models.mission import Mission
+from ..models.state import State
 
 data_missions = '''
 [

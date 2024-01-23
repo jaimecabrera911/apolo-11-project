@@ -3,7 +3,7 @@ import json
 import os
 import shutil
 
-from src.models.report2 import Report2
+from ..models.report2 import Report2
 
 
 class GenerateReport:

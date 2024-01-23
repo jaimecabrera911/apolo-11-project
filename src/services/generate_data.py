@@ -5,7 +5,7 @@ import shutil
 import time
 from typing import List
 
-from config import FILES_QTY, TIME
+from src.config.config import FILES_QTY, TIME
 from src.data.data import get_data
 from src.models.mission import Mission
 from src.models.report import Report
@@ -35,10 +35,10 @@ class GenerateData:
                 report = Report(mission.name, device.name, device.states[state_random].name)
                 data.append(report.__dict__)
             name_file = f"APL-{mission.code}-{number_format}.json"
-            source_path = os.path.abspath(f"../../devices/{name_file}")
-            backup_path = os.path.abspath(f"../../backup/{name_file}")
+            source_path = os.path.abspath(f"../devices/{name_file}")
+            backup_path = os.path.abspath(f"../backup/{name_file}")
             if os.path.exists(source_path):
                 shutil.move(source_path, backup_path)
 
-            with open(f"../devices/{name_file}", "w") as archivo:
+            with open(f"./devices/{name_file}", "w") as archivo:
                 archivo.write(f"{json.dumps(data)}")

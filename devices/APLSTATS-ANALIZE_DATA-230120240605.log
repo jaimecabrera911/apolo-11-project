@@ -1,0 +1,117 @@
+ColonyMoon
+  Satelite
+      Estado killed: 3 eventos
+      Estado good: 2 eventos
+  Nave
+      Estado good: 1 eventos
+      Estado unknown: 2 eventos
+      Estado falty: 1 eventos
+      Estado warning: 1 eventos
+  Traje
+      Estado unknown: 3 eventos
+      Estado falty: 1 eventos
+      Estado warning: 1 eventos
+  Vehiculo
+      Estado warning: 2 eventos
+      Estado falty: 1 eventos
+      Estado killed: 1 eventos
+      Estado unknown: 1 eventos
+  Robot
+      Estado killed: 1 eventos
+      Estado unknown: 1 eventos
+      Estado good: 1 eventos
+      Estado falty: 1 eventos
+      Estado warning: 1 eventos
+GalaxyOne
+  Satelite
+      Estado falty: 2 eventos
+      Estado excellent: 3 eventos
+  Nave
+      Estado killed: 2 eventos
+      Estado falty: 2 eventos
+      Estado unknown: 1 eventos
+  Traje
+      Estado unknown: 2 eventos
+      Estado excellent: 1 eventos
+      Estado good: 1 eventos
+      Estado warning: 1 eventos
+  Vehiculo
+      Estado excellent: 2 eventos
+      Estado warning: 3 eventos
+  Robot
+      Estado falty: 1 eventos
+      Estado killed: 2 eventos
+      Estado warning: 2 eventos
+OrbitOne
+  Satelite
+      Estado killed: 1 eventos
+      Estado good: 2 eventos
+      Estado excellent: 1 eventos
+      Estado unknown: 1 eventos
+  Nave
+      Estado unknown: 3 eventos
+      Estado falty: 1 eventos
+      Estado excellent: 1 eventos
+  Traje
+      Estado unknown: 1 eventos
+      Estado warning: 2 eventos
+      Estado excellent: 1 eventos
+      Estado falty: 1 eventos
+  Vehiculo
+      Estado warning: 3 eventos
+      Estado unknown: 1 eventos
+      Estado falty: 1 eventos
+  Robot
+      Estado good: 2 eventos
+      Estado warning: 1 eventos
+      Estado falty: 1 eventos
+      Estado unknown: 1 eventos
+VacMars
+  Satelite
+      Estado falty: 1 eventos
+      Estado killed: 1 eventos
+      Estado warning: 2 eventos
+      Estado unknown: 1 eventos
+  Nave
+      Estado warning: 2 eventos
+      Estado good: 1 eventos
+      Estado killed: 2 eventos
+  Traje
+      Estado good: 1 eventos
+      Estado excellent: 3 eventos
+      Estado falty: 1 eventos
+  Vehiculo
+      Estado good: 1 eventos
+      Estado falty: 1 eventos
+      Estado warning: 2 eventos
+      Estado excellent: 1 eventos
+  Robot
+      Estado good: 1 eventos
+      Estado killed: 2 eventos
+      Estado falty: 1 eventos
+      Estado excellent: 1 eventos
+Unknown
+  Satelite
+      Estado warning: 1 eventos
+      Estado unknown: 2 eventos
+      Estado falty: 1 eventos
+      Estado killed: 1 eventos
+  Nave
+      Estado good: 1 eventos
+      Estado killed: 2 eventos
+      Estado unknown: 1 eventos
+      Estado excellent: 1 eventos
+  Traje
+      Estado unknown: 1 eventos
+      Estado good: 2 eventos
+      Estado excellent: 1 eventos
+      Estado killed: 1 eventos
+  Vehiculo
+      Estado excellent: 2 eventos
+      Estado falty: 2 eventos
+      Estado killed: 1 eventos
+  Robot
+      Estado falty: 2 eventos
+      Estado killed: 1 eventos
+      Estado good: 1 eventos
+      Estado warning: 1 eventos
