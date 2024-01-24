@@ -40,5 +40,5 @@ class GenerateData:
             if os.path.exists(source_path):
                 shutil.move(source_path, backup_path)
 
-            with open(f"./devices/{name_file}", "w") as archivo:
+            with open(f"../devices/{name_file}", "w") as archivo:
                 archivo.write(f"{json.dumps(data)}")
