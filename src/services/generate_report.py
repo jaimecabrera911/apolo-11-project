@@ -10,7 +10,7 @@ class GenerateReport:
 
     @staticmethod
     def get_data_files() -> list[Report2]:
-        directorio = '../devices'
+        directorio = 'devices'
         # Obtener la lista de archivos en el directorio
         archivos_en_directorio = os.listdir(directorio)
         reports: list[Report2] = []
@@ -33,8 +33,8 @@ class GenerateReport:
 
     @staticmethod
     def create_files(report: str, data):
-        date_format = datetime.datetime.now().strftime("%d%m%Y%M%S")
-        with open(f"../devices/APLSTATS-{report}-{date_format}.log", "w") as outfile:
+        date_format = datetime.datetime.now().strftime('%d%m%Y%M%S')
+        with open(f"devices/APLSTATS-{report}-{date_format}.log", "w") as outfile:
             outfile.write(data)
 
     def analyze_events(self):
@@ -150,13 +150,13 @@ class GenerateReport:
         directorio_respaldo = os.path.join("../devices", '../backup')
 
         # Obtener la lista de archivos en el directorio actual
-        archivos_en_directorio = os.listdir("../devices")
+        archivos_en_directorio = os.listdir("devices")
 
         # Filtrar los archivos que terminan en ".log"
         archivos_log = [archivo for archivo in archivos_en_directorio if archivo.endswith('.log')]
 
         # Mover los archivos al directorio de respaldo
         for archivo in archivos_log:
-            ruta_origen = os.path.join("../devices", archivo)
-            ruta_destino = os.path.join(directorio_respaldo, archivo)
+            ruta_origen = os.path.join("devices/", archivo)
+            ruta_destino = os.path.join("backup/", archivo)
             shutil.move(ruta_origen, ruta_destino)

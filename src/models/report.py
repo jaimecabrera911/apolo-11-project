@@ -3,7 +3,7 @@ from datetime import datetime
 
 class Report:
     def __init__(self, mission: str, device: str, state: str):
-        self.date = f"{datetime.now().strftime("%Y%m%d%H%M%S")}"
+        self.date = f"{datetime.now().strftime('%Y%m%d%H%M%S')}"
         self.mission = mission
         self.device = device
         self.state = state
