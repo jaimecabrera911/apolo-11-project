@@ -1,3 +1,5 @@
+## Autores: Jaime Cabrera , Juan David Carvajal
+
 Para mejorar la documentación, podrías proporcionar más detalles sobre los pasos y las dependencias necesarias para ejecutar el código. Aquí hay una versión mejorada:
 
 ## Ejecución
