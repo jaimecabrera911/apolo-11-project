@@ -4,6 +4,23 @@ from ..models.device import Device
 from ..models.mission import Mission
 from ..models.state import State
 
+'''
+Este módulo proporciona funciones para recuperar datos predefinidos relacionados con misiones, dispositivos y estados.
+Los datos se almacenan en formato JSON y se utilizan para inicializar instancias de las clases Misión, Dispositivo y Estado.
+
+Clases:
+    - Mission: Representa una misión espacial con un código y un nombre únicos.
+    - Device: Representa un dispositivo espacial con un código y un nombre únicos.
+    - Satet: Representa el estado de un dispositivo espacial con un código y nombre únicos.
+
+Funciones:
+    - get_data(): Recupera e inicializa datos predefinidos para misiones, dispositivos y estados.
+    
+Utilización:
+    Para utilizar este módulo, impórtelo y llame a la función get_data(). Devuelve una lista de instancias de misiones
+    con los dispositivos y estados asociados.
+'''
+
 data_missions = '''
 [
   {
