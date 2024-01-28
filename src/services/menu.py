@@ -2,6 +2,24 @@ import os
 
 from src.services.generate_report import GenerateReport
 
+'''
+Este módulo define la clase Menu, que representa un menú basado en texto para interactuar con la clase GenerateReport.
+
+Clases:
+    - Menu: Representa un menú con opciones para interactuar con la clase GenerateReport.
+
+Métodos:
+    - show_menu: Muestra las opciones disponibles del menú.
+    - option_1: Ejecuta la opción 1 - Analizar Eventos.
+    - option_2: Ejecuta la opción 2 - Gestión de desconexiones.
+    - option_3: Ejecuta la opción 3 - Consolidación de misiones.
+    - option_4: Ejecuta la opción 4 - Cálculo de porcentajes.
+    - option_5: Ejecuta la opción 5 - Crear un backup.
+    - execute_app: Ejecuta la aplicación del menú y maneja las entradas del usuario.
+
+Uso:
+    Para utilizar este módulo, importa la clase Menu y crea una instancia para ejecutar las opciones del menú.
+'''
 
 class Menu:
     generate_report = GenerateReport()

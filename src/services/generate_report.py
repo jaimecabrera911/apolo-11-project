@@ -5,6 +5,25 @@ import shutil
 
 from ..models.report2 import Report2
 
+'''
+Este módulo define la clase GenerateReport, responsable de analizar y generar informes basados en ficheros de datos.
+
+Clases:
+    - GenerateReport: Contiene métodos para analizar eventos, gestionar desconexiones, obtener dispositivos inoperativos, calcular porcentajes de datos,
+        crear copias de seguridad, y realizar operaciones con ficheros de datos.
+
+Métodos:
+    - get_data_files: Recupera una lista de instancias de Report2 de los ficheros de datos del directorio 'devices'.
+    - create_files: Escribe datos en un archivo de registro con un nombre de informe específico.
+    - analyze_events: Analiza eventos y genera un informe con estadísticas.
+    - manage_disconnections: Gestiona las desconexiones y genera un informe con recuentos.
+    - get_inoperable_devices: Recupera los dispositivos inoperables y genera un informe.
+    - calculate_data_percentages: Calcula los porcentajes de datos y genera un informe.
+    - create_backup: Crea una copia de seguridad de los archivos de registro en el directorio 'backup'.
+
+Utilización:
+    Para utilizar este módulo, importa la clase GenerateReport y llama a sus métodos para el análisis de datos y la generación de informes.
+'''
 
 class GenerateReport:
 
