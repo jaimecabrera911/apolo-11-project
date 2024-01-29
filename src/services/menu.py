@@ -1,5 +1,3 @@
-import os
-
 from src.services.generate_report import GenerateReport
 
 '''
@@ -20,6 +18,7 @@ Métodos:
 Uso:
     Para utilizar este módulo, importa la clase Menu y crea una instancia para ejecutar las opciones del menú.
 '''
+
 
 class Menu:
     generate_report = GenerateReport()

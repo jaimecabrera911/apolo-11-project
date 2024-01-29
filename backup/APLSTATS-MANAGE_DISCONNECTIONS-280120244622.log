@@ -1,0 +1,22 @@
+Misión: ColonyMoon
+  Dispositivo: Satelite, Desconexiones: 1
+  Dispositivo: Vehiculo, Desconexiones: 1
+  Dispositivo: Traje, Desconexiones: 1
+  Dispositivo: Robot, Desconexiones: 1
+Misión: GalaxyOne
+  Dispositivo: Robot, Desconexiones: 1
+  Dispositivo: Vehiculo, Desconexiones: 1
+  Dispositivo: Traje, Desconexiones: 1
+  Dispositivo: Satelite, Desconexiones: 1
+Misión: OrbitOne
+  Dispositivo: Nave, Desconexiones: 2
+  Dispositivo: Vehiculo, Desconexiones: 1
+  Dispositivo: Traje, Desconexiones: 1
+Misión: VacMars
+  Dispositivo: Robot, Desconexiones: 1
+  Dispositivo: Traje, Desconexiones: 1
+  Dispositivo: Vehiculo, Desconexiones: 2
+Misión: Unknown
+  Dispositivo: Nave, Desconexiones: 1
+  Dispositivo: Satelite, Desconexiones: 1
+  Dispositivo: Traje, Desconexiones: 1
