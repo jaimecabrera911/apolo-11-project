@@ -3,7 +3,8 @@ from typing import List
 from src.models.state import State
 
 '''
-Este módulo define la clase Device, que representa un dispositivo espacial con un código único, un nombre y estados asociados.
+Este módulo define la clase Device, que representa un dispositivo espacial con un código único, un nombre y estados
+asociados.
 
 Clases:
     - Device: Representa un dispositivo espacial con atributos código, nombre y estados.
@@ -16,6 +17,7 @@ Utilización:
     Para utilizar este módulo, importa la clase Device. Cree instancias Device con los parámetros requeridos,
     y utiliza el método to_dict para la serialización.
 '''
+
 
 class Device:
 

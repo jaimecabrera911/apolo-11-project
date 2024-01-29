@@ -11,6 +11,7 @@ Utilización:
     Para utilizar este módulo, importa la clase State. Crea instancias de State con los parámetros requeridos.
 '''
 
+
 class State:
 
     def __init__(self, code: int, name: str) -> None:
